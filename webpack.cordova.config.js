@@ -1,7 +1,7 @@
-const webpack = require('webpack');
 const path = require('path');
 
 module.exports = {
+  mode: 'none',
   entry: {
     plugin: path.join(__dirname, './src/browser/src/cordova-plugin.js'),
     www: path.join(__dirname, './src/common/src/cordova-www.js')
